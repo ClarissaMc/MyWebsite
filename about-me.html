@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>About Me</title>
+	<!-- Bootstrap's CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!-- Font -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="clarissa.css">
+	<link rel="icon" href="images/computer_fav.png">
+</head>
+<body>
+	<div id="page">
+		
+		<!-- Navigation -->
+		<div id="top-nav">
+			<nav class="navbar navbar-expand-sm bg-warning fixed-top">
+
+				<!-- Logo -->
+				<a href="home.html" class="navbar-brand">
+					<img src="images/computer_fav.png" alt="Computer" style="width:50px;">
+				</a>
+				<a href="home.html" class="navbar-brand">Clarissa McCarthy</a>
+
+				<!-- Collapsible Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Links -->
+				<div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+					<ul class="navbar-nav float-right">
+						<li class="nav-item">
+							<a href="about-me.html" class="nav-link active">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a href="projects.html" class="nav-link">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact-me.html" class="nav-link">Contact Me!</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- End Navigation -->
+
+		<!-- Start First Row -->
+		<div class="row first-row">
+			<!-- Portrait -->
+			<div class="col-sm-4">
+				<img src="images/maka.jpg" class="portrait">
+			</div>
+			<!-- About Me -->
+			<div class="col-sm-6" id="about-me">
+				<p>
+					Hey, my name's Clarissa (she/her) and I'm a full-stack developer from Weymouth, MA. I'll be graduating from the University of Massachusetts Boston in May 2024 with a BS in Computer Science and am excited to apply my skills to the real world!
+				</p>
+				<p>
+					Being part of such a fast, constantly-evolving field requires an immense desire to learn and improve. This is a large reason why I love computer science as much as I do. It presents me with countless opportunities to expand my knowledge and understanding while also being able to physically apply what I learn. This spring, I took two online, certified courses through edx for cloud computing and web development. Over the summer, I taught myself Python and made four different projects that showcase the wide range of applications of the language. Currently, I'm working on a machine-learning project that predicts the length of a trip on the MBTA (If you, too, have had to suffer through the unpredictability of the T, you have my condolences).
+				</p>
+				<p>
+					My recent projects have focused on web development and data science, but I've also recently taken an interest in machine learning. 
+				</p>
+			</div>
+		</div>
+		<!-- End First Row -->
+
+		<!-- Footer -->
+		<footer class="d-flex flex-row flex-container">
+			<div>&copy; 2023 Clarissa McCarthy</div>
+			<div class="social-media">
+				<a href="https://linkedin.com/in/clarissa-mccarthy" target="_blank">
+					<img src="images/linkedin.png" alt="LinkedIn" style="width:40px;">
+				</a>
+				<a href="https://github.com/ClarissaMc" target="_blank">
+					<img src="images/github.png" alt="GitHub" style="width:40px;">
+				</a>
+			</div>
+		</footer>
+		<!-- End Footer -->
+	</div>
+</body>
+</html>

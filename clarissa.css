@@ -13,7 +13,7 @@ body {
 	background-color: #ffe16b;
 	width: 100%;
 	height: 100%;
-	margin: 0;
+/*	margin: 0;*/
 	text-align: left;
 }
 
@@ -31,6 +31,10 @@ li.nav-item {
 
 img {
 	object-fit: scale-down;
+}
+
+.first-row {
+	margin-top: 54px;
 }
 
 .blurb {
@@ -92,4 +96,19 @@ footer {
 	align-items: center;
 	display: flex;
 	justify-content: center;
+}
+
+img.portrait {
+	margin: 4em;
+	margin-top: 5em;
+	border: 5px solid goldenrod;
+	border-radius: 100%;
+}
+
+#about-me {
+	background-color: #ffeeb3;
+	border:1px solid goldenrod;
+	border-radius: 20px;
+	margin: 5em 4em 4em 0em;
+	padding: 1.5em;
 }
