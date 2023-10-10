@@ -5,7 +5,7 @@ body {
 	min-height: 1000px;
 }
 
-#page {
+#page-home {
 	color: #000;
 	font-family: "Outfit", "Verdana", sans-serif;
 	font-size: 12pt;
@@ -14,6 +14,17 @@ body {
 	width: 100%;
 	height: 100%;
 /*	margin: 0;*/
+	text-align: left;
+}
+
+#page-about-me {
+	color: #000;
+	font-family: "Outfit", "Verdana", sans-serif;
+	font-size: 12pt;
+/*	background-color: #ffeeb3;*/
+	background-color: #ffedbf;
+	width: 100%;
+	height: 100%;
 	text-align: left;
 }
 
@@ -33,16 +44,30 @@ img {
 	object-fit: scale-down;
 }
 
-.first-row {
+.first-row-home {
+	display: flex;
+	align-items: center;
+	margin-top: 54px;
+}
+
+.first-row-about-me {
+	display: flex;
+	align-content: center;
+	flex-wrap: nowrap;
 	margin-top: 54px;
 }
 
 .blurb {
-	padding-top: 8em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+/*	padding-top: 8em;*/
 }
 
 .intro {
-	padding-left: 1.5em;
+/*	border: 1px solid black;*/
+/*	padding-left: 1.5em;*/
+	text-align: center;
 }
 
 p.intro {
@@ -50,8 +75,16 @@ p.intro {
 }
 
 .mini-about-me {
-	padding: 20px 30px 20px 30px;
+/*	padding: 20px 30px 20px 30px;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
 	width: 480px;
+}
+
+.half-page-img img {
+	aspect-ratio: 5 / 4;
+	max-height: 100em;
+	max-width: 100%;
 }
 
 div.carousel {
@@ -98,17 +131,97 @@ footer {
 	justify-content: center;
 }
 
+#skills {
+/*	align-items: center;*/
+	background-color: #fcd874;
+	border: 2px solid goldenrod;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5em;
+}
+
+#resume {
+	text-align: center;
+}
+
+#stats {
+	align-items: center;
+/*	border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+/*	justify-content: center;*/
+}
+
+#stat-items {
+	align-items: flex-start;
+}
+
+#languages {
+	text-align: center;
+}
+
+.logos {
+	align-items: end;
+/*	align-items: center;*/
+/*	display: flex;*/
+/*	flex-direction: row;*/
+	flex-wrap: wrap;
+/*	justify-content: space-evenly;*/
+	text-align: center;
+}
+
+.logos div {
+/*	border: 1px solid black;*/
+/*	margin: 3px 0 3px 0;*/
+}
+
+.logos img {
+	width: 48px;
+}
+
+#other-skills {
+	text-align: center;
+}
+
 img.portrait {
-	margin: 4em;
+/*	margin: 4em;*/
 	margin-top: 5em;
-	border: 5px solid goldenrod;
+	max-height: 15em;
+	max-width: 75%;
+	border: 3px solid #ecc165;
 	border-radius: 100%;
 }
 
 #about-me {
-	background-color: #ffeeb3;
-	border:1px solid goldenrod;
+	align-self: center;
+	background-color: #fce7aa;
+	border:1px solid #F8DA77;
 	border-radius: 20px;
 	margin: 5em 4em 4em 0em;
+	max-width: 800px;
 	padding: 1.5em;
+}
+
+#about-me h4 {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.2em;
+}
+
+#what-i-do {
+	background-color: cornsilk;
+	padding: 2em;
+	text-align: center;
+}
+
+.card {
+	background-color: #ffedbf;
+}
+
+#certs {
+	text-align: center;
+}
+
+.cert img {
+	width: 24px;
 }

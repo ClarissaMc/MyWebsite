@@ -12,7 +12,7 @@
 	<link rel="icon" href="images/computer_fav.png">
 </head>
 <body>
-	<div id="page">
+	<div id="page-about-me">
 		
 		<!-- Navigation -->
 		<div id="top-nav">
@@ -47,26 +47,179 @@
 		</div>
 		<!-- End Navigation -->
 
-		<!-- Start First Row -->
-		<div class="row first-row">
-			<!-- Portrait -->
-			<div class="col-sm-4">
-				<img src="images/maka.jpg" class="portrait">
+		<!-- Start Row for Continuous Sidebar -->
+		<div class="row first-row-about-me">
+			<!-- Skills Sidebar -->
+			<div class="col-sm-3" id="skills">
+				<!-- Resume -->
+				<div id="resume">
+					<a href="resume/Clarissa%20McCarthy%20Resume%2009-2023.pdf" class="btn btn-warning" role="button" target="_blank">Download My Resume!</a>
+					<hr>
+				</div>
+				<!-- End Resume -->
+				<!-- Personal Details -->
+				<div id="stats">
+					<div id="stat-items">
+						<p><b>Location:</b> United States</p>
+						<p><b>City:</b> Weymouth, MA</p>
+						<p><b>Age:</b> 22</p>
+					</div>
+				</div>
+				<!-- End Personal Details -->
+				<!-- Languages -->
+				<div id="languages">
+					<hr>
+					<p><b>Languages:</b></p>
+					<div class="logos">
+						<div class="row d-flex justify-content-around">
+							<div class="col px-3">
+								<img src="images/python.png" alt="Python">
+								<p>Python</p>
+							</div>
+							<div class="col px-3">
+								<img src="images/java.png" alt="Java">
+								<p>Java</p>
+							</div>
+							<div class="col px-3">
+								<img src="images/c.png" alt="C">
+								<p>C</p>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-around">
+							<div class="col px-3">
+								<img src="images/html.png" alt="HTML 5">
+								<p>HTML 5</p>
+							</div>
+							<div class="col px-3">
+								<img src="images/css.png" alt="CSS 3">
+								<p>CSS 3</p>
+							</div>
+							<div class="col px-3">
+								<img src="images/javascript.png" alt="JavaScript">
+								<p>JavaScript</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Languages -->
+				<!-- Other Skills -->
+				<div id="other-skills">
+					<hr>
+					<p><b>Other Skills:</b></p>
+					<div class="logos">
+						<div class="row d-flex justify-content-around">
+							<div class="col px-3">
+								<img src="images/jquery.png" alt="JQuery">
+								<p>JQuery</p>
+							</div>
+							<div class="col px-3">
+								<img src="images/git.png" alt="Git">
+								<p>Git</p>
+							</div>
+							<div class="col px-3">
+								<img src="images/latex.png" alt="Latex">
+								<p>LaTeX</p>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-around">
+							<div class="col px-3">
+								<img src="images/bootstrap.png" alt="Bootstrap">
+								<p>Bootstrap</p>
+							</div>
+							<div class="col px-3">
+								<img src="images/api.png" alt="API">
+								<p>APIs</p>
+							</div>
+							<div class="col px-3">
+								<img src="images/cloud.png" alt="Cloud Computing">
+								<p>Cloud Computing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Other Skills -->
 			</div>
-			<!-- About Me -->
-			<div class="col-sm-6" id="about-me">
-				<p>
-					Hey, my name's Clarissa (she/her) and I'm a full-stack developer from Weymouth, MA. I'll be graduating from the University of Massachusetts Boston in May 2024 with a BS in Computer Science and am excited to apply my skills to the real world!
-				</p>
-				<p>
-					Being part of such a fast, constantly-evolving field requires an immense desire to learn and improve. This is a large reason why I love computer science as much as I do. It presents me with countless opportunities to expand my knowledge and understanding while also being able to physically apply what I learn. This spring, I took two online, certified courses through edx for cloud computing and web development. Over the summer, I taught myself Python and made four different projects that showcase the wide range of applications of the language. Currently, I'm working on a machine-learning project that predicts the length of a trip on the MBTA (If you, too, have had to suffer through the unpredictability of the T, you have my condolences).
-				</p>
-				<p>
-					My recent projects have focused on web development and data science, but I've also recently taken an interest in machine learning. 
-				</p>
+			<!-- End Sidebar -->
+
+			<!-- EVERYTHING ELSE GOES IN THIS COL -->
+			<div class="col-sm-9">
+				<!-- Start Row for Portrait & Text -->
+				<div class="row d-inline-flex">
+					<!-- Portrait -->
+					<div class="col-sm-2 text-center">
+						<img src="images/white-prof-edited.jpeg" class="portrait">
+					</div>
+					<!-- About Me -->
+					<div class="col-sm-7 flex-fill" id="about-me">
+						<h4>About Me</h4>
+						<p>
+							Hey, my name's Clarissa (she/her) and I'm a full-stack developer. I'll be graduating from the University of Massachusetts Boston in May 2024 with a BS in Computer Science and am excited to apply my skills to the real world!
+						</p>
+						<p>
+							Being part of such a fast, constantly-evolving field requires an immense desire to learn and improve. This is a large reason why I love computer science as much as I do. It presents me with countless opportunities to expand my knowledge and understanding while also being able to physically apply what I learn. This spring, I took two online, certified courses through edX for cloud computing and web development. Over the summer, I taught myself Python and made four different projects that showcase the wide range of applications of the language. Currently, I'm working on a machine-learning project that predicts the length of a trip on the MBTA (If you, too, have had to suffer through the unpredictability of the T, you have my condolences).
+						</p>
+						<p>
+							My recent projects have focused on web development and data science, but I've also recently taken an interest in machine learning. 
+						</p>
+					</div>
+				</div>
+				<!-- End Row for Portrait & Text -->
+
+				<!-- Start Row for What I Do -->
+				<div class="row" id="what-i-do">
+					<h4>What I Do</h4>
+					<div class="col">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Full-Stack Development</h5>
+								Full-stack development is the heart of what I do. I love both front- and back-end development, and being able to combine the two into a fully-realized project is incredibly fulfilling! 
+							</div>
+							<img src="images/full-stack.png" alt="Full-Stack Development" class="card-img-bottom">
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Data Science</h5>
+								Ever since I was a kid, I've loved organizing and working with data. Not only are these projects incredibly satisfying to work on, they're also very easily applicable to real-world problems, making them even more satisfying!
+							</div>
+							<img src="images/data-analysis.png" alt="Data Science" class="card-img-bottom">
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Machine Learning</h5>
+								I've only recently started getting my hands on machine learning, but I've already become fascinated by its applications. So far, I've worked with Scikit-learn, but I'm also eager to learn PyTorch and TensorFlow.
+							</div>
+							<img src="images/machine-learning.png" alt="Machine Learning" class="card-img-bottom">
+						</div>
+					</div>
+				</div>
+				<!-- End Row for What I Do -->
+
+				<!-- Start Row for Certs -->
+				<div id="certs" class="row">
+					<h4>Certifications</h4>
+					<div class="col cert" id="java-cert-1">
+						<img src="images/java.png" alt="Java">
+						<a href="certifications/Intro%20to%20Java_edx.pdf" download="" target="_blank">edX Intro to Java Programming</a>
+					</div>
+					<div class="col cert" id="web-dev">
+						<img src="images/html.png" alt="HTML">
+						<img src="images/css.png" alt="CSS">
+						<img src="images/javascript.png" alt="JavaScript">
+						<a href="certifications/IBM%20CAD101EN%20Certificate%20_%20edX.pdf" download="" target="_blank">edX Intro to Web Development</a>
+					</div>
+					<div class="col cert" id="cloud-computing">
+						<img src="images/cloud.png" alt="Cloud Computing">
+						<a href="certifications/IBM%20CC0101EN%20Certificate%20_%20edX.pdf" download="" target="_blank">edX Intro to Cloud Computing</a>
+					</div>
+				</div>
+				<!-- End Row for Certs -->
 			</div>
 		</div>
-		<!-- End First Row -->
+		<!-- End Row for Continuous Sidebar -->
 
 		<!-- Footer -->
 		<footer class="d-flex flex-row flex-container">
