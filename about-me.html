@@ -12,11 +12,11 @@
 	<link rel="icon" href="images/computer_fav.png">
 </head>
 <body>
-	<div id="page-about-me">
+	<div id="page-about-me color3">
 		
 		<!-- Navigation -->
 		<div id="top-nav">
-			<nav class="navbar navbar-expand-sm bg-warning fixed-top">
+			<nav class="navbar navbar-expand-sm color1 fixed-top">
 
 				<!-- Logo -->
 				<a href="home.html" class="navbar-brand">
@@ -50,10 +50,18 @@
 		<!-- Start Row for Continuous Sidebar -->
 		<div class="row first-row-about-me">
 			<!-- Skills Sidebar -->
-			<div class="col-sm-3" id="skills">
+			<div class="col-sm-3 color2" id="skills">
 				<!-- Resume -->
 				<div id="resume">
-					<a href="resume/Clarissa%20McCarthy%20Resume%2009-2023.pdf" class="btn btn-warning" role="button" target="_blank">Download My Resume!</a>
+					<a href="resume/Clarissa%20McCarthy%20Resume%2009-2023.pdf" class="btn" role="button" target="_blank">Download My Resume!</a>
+					<div class="social-media mx-auto my-3">
+						<a href="https://linkedin.com/in/clarissa-mccarthy" target="_blank">
+							<img src="images/linkedin-2.png" alt="LinkedIn" style="width:50px;">
+						</a>
+						<a href="https://github.com/ClarissaMc" target="_blank">
+							<img src="images/github-2.png" alt="GitHub" style="width:50px;">
+						</a>
+					</div>
 					<hr>
 				</div>
 				<!-- End Resume -->
@@ -142,15 +150,15 @@
 			<!-- End Sidebar -->
 
 			<!-- EVERYTHING ELSE GOES IN THIS COL -->
-			<div class="col-sm-9">
+			<div class="col-sm-9 color3" id="everything-col">
 				<!-- Start Row for Portrait & Text -->
-				<div class="row d-inline-flex">
+				<div class="d-flex justify-content-center color3" id="portrait-about">
 					<!-- Portrait -->
-					<div class="col-sm-2 text-center">
-						<img src="images/white-prof-edited.jpeg" class="portrait">
+					<div>
+						<img src="images/white-prof-edited.jpeg" class="portrait text-center">
 					</div>
 					<!-- About Me -->
-					<div class="col-sm-7 flex-fill" id="about-me">
+					<div class="color4" id="about-me">
 						<h4>About Me</h4>
 						<p>
 							Hey, my name's Clarissa (she/her) and I'm a full-stack developer. I'll be graduating from the University of Massachusetts Boston in May 2024 with a BS in Computer Science and am excited to apply my skills to the real world!
@@ -159,14 +167,14 @@
 							Being part of such a fast, constantly-evolving field requires an immense desire to learn and improve. This is a large reason why I love computer science as much as I do. It presents me with countless opportunities to expand my knowledge and understanding while also being able to physically apply what I learn. This spring, I took two online, certified courses through edX for cloud computing and web development. Over the summer, I taught myself Python and made four different projects that showcase the wide range of applications of the language. Currently, I'm working on a machine-learning project that predicts the length of a trip on the MBTA (If you, too, have had to suffer through the unpredictability of the T, you have my condolences).
 						</p>
 						<p>
-							My recent projects have focused on web development and data science, but I've also recently taken an interest in machine learning. 
+							When I'm not coding, I love spending time in nature, cooking new recipes, and playing video games. I also travel to Ireland every year to visit both sides of my extended family.
 						</p>
 					</div>
 				</div>
 				<!-- End Row for Portrait & Text -->
 
 				<!-- Start Row for What I Do -->
-				<div class="row" id="what-i-do">
+				<div class="row color4" id="what-i-do">
 					<h4>What I Do</h4>
 					<div class="col">
 						<div class="card">
@@ -199,21 +207,36 @@
 				<!-- End Row for What I Do -->
 
 				<!-- Start Row for Certs -->
-				<div id="certs" class="row">
+				<div id="certs" class="row flex-container align-items-start color3">
 					<h4>Certifications</h4>
 					<div class="col cert" id="java-cert-1">
-						<img src="images/java.png" alt="Java">
-						<a href="certifications/Intro%20to%20Java_edx.pdf" download="" target="_blank">edX Intro to Java Programming</a>
+						<div>
+							<a href="certifications/Intro%20to%20Java_edx.pdf" download="" target="_blank"><img src="images/java-cert-1.png" alt="UC3M Java Course 1" class="cert-profile"></a>
+							<div class="d-inline-flex">
+								<img src="images/java.png" alt="Java" class="cert-img" style="margin-right:5px;">
+								<a href="certifications/Intro%20to%20Java_edx.pdf" download="" target="_blank">edX Intro to Java Programming</a>
+							</div>
+						</div>
 					</div>
 					<div class="col cert" id="web-dev">
-						<img src="images/html.png" alt="HTML">
-						<img src="images/css.png" alt="CSS">
-						<img src="images/javascript.png" alt="JavaScript">
-						<a href="certifications/IBM%20CAD101EN%20Certificate%20_%20edX.pdf" download="" target="_blank">edX Intro to Web Development</a>
+						<div>
+							<a href="certifications/IBM%20CAD101EN%20Certificate%20_%20edX.pdf" download="" target="_blank"><img src="images/web-dev-cert.png" alt="IBM Web Dev Course" class="cert-profile"></a>
+							<div class="d-inline-flex">
+								<img src="images/html.png" alt="HTML" class="cert-img">
+								<img src="images/css.png" alt="CSS" class="cert-img">
+								<img src="images/javascript.png" alt="JavaScript" class="cert-img" style="margin-right:5px;">
+								<a href="certifications/IBM%20CAD101EN%20Certificate%20_%20edX.pdf" download="" target="_blank">edX Intro to Web Development</a>
+							</div>
+						</div>
 					</div>
 					<div class="col cert" id="cloud-computing">
-						<img src="images/cloud.png" alt="Cloud Computing">
-						<a href="certifications/IBM%20CC0101EN%20Certificate%20_%20edX.pdf" download="" target="_blank">edX Intro to Cloud Computing</a>
+						<div>
+							<a href="certifications/IBM%20CC0101EN%20Certificate%20_%20edX.pdf" download="" target="_blank"><img src="images/cloud-cert.png" alt="IBM Cloud Computing Course" class="cert-profile"></a>
+							<div class="d-inline-flex">
+								<img src="images/cloud.png" alt="Cloud Computing" class="cert-img" style="margin-right:5px;">
+								<a href="certifications/IBM%20CC0101EN%20Certificate%20_%20edX.pdf" download="" target="_blank">edX Intro to Cloud Computing</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- End Row for Certs -->
@@ -222,7 +245,7 @@
 		<!-- End Row for Continuous Sidebar -->
 
 		<!-- Footer -->
-		<footer class="d-flex flex-row flex-container">
+		<footer class="d-flex flex-row flex-container color1">
 			<div>&copy; 2023 Clarissa McCarthy</div>
 			<div class="social-media">
 				<a href="https://linkedin.com/in/clarissa-mccarthy" target="_blank">
