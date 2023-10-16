@@ -61,6 +61,10 @@ body {
 	text-align: left;
 }
 
+#page-contact-me {
+/*	min-height: ;*/
+}
+
 nav {
 	text-align: center;
 }
@@ -93,6 +97,14 @@ hr {
 	align-content: center;
 	flex-wrap: nowrap;
 	margin-top: 54px;
+}
+
+.first-row-contact {
+	margin-top: 100px;
+}
+
+.logo {
+	padding-left: 1em;
 }
 
 .blurb {
@@ -291,4 +303,56 @@ img.portrait {
 
 .cert-img {
 	width: 24px;
+}
+
+.email-me {
+	border: 3px solid tan;
+	border-radius: 20px;
+	box-shadow: -3px -3px 3px #c4c9bb;
+	margin: 1em 0 2em 0;
+	padding: 2em;
+}
+
+#contact-heading {
+/*	border: 1px solid black;*/
+	text-align: center;
+/*	max-width: 75%;*/
+}
+
+#how-to-contact {
+	max-width: 80%;
+}
+
+.contact-text {
+	text-align: center;
+}
+
+#socials {
+	border: 1px solid black;
+/*	margin: 0;*/
+	max-width: 100%;
+}
+
+#socials div {
+/*	border: 1px solid black;*/
+/*	font-size: 10pt;*/
+}
+
+#socials img {
+	max-width: 24px;
+	vertical-align: middle;
+}
+
+#socials span {
+	margin-left: 0.5em;
+}
+
+#socials a {
+	color: #414442;
+	text-decoration: none;
+}
+
+#socials a:hover {
+	text-decoration: underline;
+	text-underline-offset: 2px;
 }
