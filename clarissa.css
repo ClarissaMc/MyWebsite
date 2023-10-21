@@ -105,6 +105,10 @@ hr {
 	margin-top: 100px;
 }
 
+.first-row-projects {
+	margin-top: 76px;
+}
+
 .logo {
 	padding-left: 1em;
 }
@@ -374,6 +378,7 @@ img.portrait {
 #socials div {
 /*	border: 1px solid black;*/
 /*	font-size: 10pt;*/
+/*	text-align: center;*/
 }
 
 #socials img {
@@ -393,4 +398,58 @@ img.portrait {
 #socials a:hover {
 	/*text-decoration: underline;
 	text-underline-offset: 2px;*/
+}
+
+.project-row {
+	margin-bottom: 1.5em;
+}
+
+.left-align .link-btn {
+	float: right;
+	width: 30px;
+}
+
+.right-align h4 {
+	text-align: right;
+}
+
+.right-align .language-btn {
+	float: right;
+}
+
+.right-align .link-btn {
+/*	float: left;*/
+	width: 30px;
+}
+
+.project-text {
+	padding-top: 1em;
+}
+
+.project-text h4 {
+	margin-bottom: 0px;
+}
+
+.project-text hr {
+	margin-top: .5em;
+}
+
+.language-btn {
+	width: 30px;
+}
+
+.crash-course {
+	color: #414442;
+	text-decoration: underline;
+}
+
+.crash-course:hover {
+	color: black;
+}
+
+.thumbnail {
+/*	aspect-ratio: 4 / 3;*/
+	border: 3px solid #CCD5AE;
+	border-radius: 20px;
+	max-width: 100%;
 }

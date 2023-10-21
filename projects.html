@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Clarissa McCarthy's Website</title>
+	<!-- Bootstrap's CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!-- Font -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="clarissa.css">
+	<link rel="icon" href="images/computer_fav.png">
+	<!-- JQuery -->
+	<!-- <script src="jquery-3.7.1.min.js"></script> -->
+</head>
+<body>
+	<div id="page-projects color2">
+		<!-- Navigation -->
+		<div id="top-nav">
+			<nav class="navbar navbar-expand-sm color1 fixed-top">
+
+				<!-- Logo -->
+				<a href="index.html" class="navbar-brand logo">
+					<img src="images/computer_fav.png" alt="Computer" style="width:50px;">
+				</a>
+				<a href="index.html" class="navbar-brand">Clarissa McCarthy</a>
+
+				<!-- Collapsible Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Links -->
+				<div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+					<ul class="navbar-nav float-right">
+						<li class="nav-item">
+							<a href="about-me.html" class="nav-link">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a href="projects.html" class="nav-link active">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact-me.html" class="nav-link">Contact Me!</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- End Navigation -->
+
+		<div class="row first-row-projects color2">
+			<div class="col-sm-2"></div>
+			<!-- Main Col -->
+			<div class="col-sm-8">
+
+				<!-- Top Project (Wesbsite) -->
+				<div class="row project-row left-align" style="margin-top:1.5em;">
+					<div class="row d-flex align-items-center">
+						<!-- Text -->
+						<div class="col-sm-7 project-text">
+							<h4>Portfolio Website</h4>
+							<!-- Icons -->
+							<img src="images/html-button.png" alt="HTML" class="language-btn">
+							<img src="images/css-button.png" alt="CSS" class="language-btn">
+							<img src="images/js-button.png" alt="JavaScript" class="language-btn">
+							<img src="images/bootstrap-button.png" alt="Bootstrap" class="language-btn">
+							<!-- Links -->
+							<a href="https://clarissamc.github.io/MyWebsite/" target="_blank"><img src="images/new-tab.png" alt="New Tab" class="link-btn"></a>
+							<a href="https://github.com/ClarissaMc/MyWebsite" target="_blank"><img src="images/github-3.png" alt="GitHub" class="link-btn"></a>
+							<hr>
+							<p>
+								Does this look familiar? <img src="images/smile.png" alt="Smiling face" style="width:1.5em;"> I made this website with <b>HTML5</b>, <b>CSS3</b>, and <b>Bootstrap 5</b>. I also used <b>JavaScript</b> to make the homepage slideshow caption responsive to the current image shown. I made the contact form on the Contact Me! page using <b>HubSpot</b>, which provides a secure way for visitors to email me directly. The website is currently hosted on <b>GitHub Pages</b> with a custom URL, however I will consider hosting it myself in the future.
+							</p>
+						</div>
+						<!-- Image -->
+						<div class="col-sm-5">
+							<img src="images/website.png" alt="Homepage of this website" class="thumbnail">
+						</div>
+					</div>
+				</div>
+				<!-- End Top Project (Website) -->
+
+				<!-- 2nd Project (Alpaca) -->
+				<div class="row project-row right-align">
+					<div class="row d-flex align-items-center">
+						<!-- Image -->
+						<div class="col-sm-5">
+							<img src="images/alpaca-screenshot.png" alt="Graph of stock prices over time" class="thumbnail">
+						</div>
+						<!-- Text -->
+						<div class="col-sm-7 project-text">
+							<h4>Crossing Averages Trading Algorithm</h4>
+							<!-- Icons -->
+							<img src="images/api-button.png" alt="API" class="language-btn">
+							<img src="images/python-button.png" alt="Python" class="language-btn" style="margin-right:0.25em;">
+							<!-- Links -->
+							<a href="https://github.com/ClarissaMc/alpacaProjectCrossingAverages" target="_blank"><img src="images/github-3.png" alt="GitHub" class="link-btn"></a>
+							<hr>
+							<p>
+								This algorithm calculates two moving averages, long- and short-term, of a given stock's price. If the short-term average crosses above the long-term average, the algorithm generates a buy signal. If the short-term average crosses below the long-term average, it generates a sell signal. The algorithm was written in <b>Python</b> and uses <b>Matplotlib</b> to create graphs of the trends in stock prices. Stock data was retrieved using the <b>Alpaca Trading API</b> and manipulated using <b>pandas</b>.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End 2nd Project (Alpaca) -->
+
+				<!-- 3rd Project (Learning Log) -->
+				<div class="row project-row left-align">
+					<div class="row d-flex align-items-center">
+						<!-- Text -->
+						<div class="col-sm-7 project-text">
+							<h4>Learning Log Website</h4>
+							<!-- Icons -->
+							<img src="images/python-button.png" alt="Python" class="language-btn">
+							<img src="images/html-button.png" alt="HTML" class="language-btn">
+							<img src="images/css-button.png" alt="CSS" class="language-btn">
+							<img src="images/bootstrap-button.png" alt="Bootstrap" class="language-btn">
+							<!-- Links -->
+							<a href="https://learning--log-380c431b92c8.herokuapp.com/" target="_blank"><img src="images/new-tab.png" alt="New Tab" class="link-btn"></a>
+							<a href="https://github.com/ClarissaMc/Learning-Log" target="_blank"><img src="images/github-3.png" alt="GitHub" class="link-btn"></a>
+							<hr>
+							<p>
+								Learning Log allows users to write entries about topics they are learning about for reference in the future. It features a login system, custom error pages, and responsive resizing for various screen dimensions. This website was primarily written in <b>Python</b>, but also uses some <b>HTML</b> and <b>CSS</b>. I used <b>Bootstrap 4</b> for styling and <b>Heroku</b> for deployment. The idea for this website was inspired by <i>Python Crash Course 2nd Edition</i> by Eric Matthes, which you can find <a href="https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=sr_1_4?crid=1LXZ5Y0OHI2QS&keywords=python+crash+course&qid=1686026423&sprefix=python%2520crash%2520course%2Caps%2C79&sr=8-4" target="_blank" class="crash-course">here</a>.
+							</p>
+						</div>
+						<!-- Image -->
+						<div class="col-sm-5">
+							<img src="images/learning-log.png" alt="Homepage of Learning Log website" class="thumbnail">
+						</div>
+					</div>
+				</div>
+				<!-- End 3rd Project (Learning Log) -->
+
+				<!-- 4th Project (Alien Invasion) -->
+				<div class="row project-row right-align">
+					<div class="row d-flex align-items-center">
+						<!-- Image -->
+						<div class="col-sm-5">
+							<img src="images/alien-invasion.png" alt="2-dimensional spaceship shooting aliens" class="thumbnail">
+						</div>
+						<!-- Text -->
+						<div class="col-sm-7 project-text">
+							<h4>Alien Invasion Game</h4>
+							<!-- Icons -->
+							<img src="images/python-button.png" alt="Python" class="language-btn" style="margin-right:0.25em;">
+							<!-- Links -->
+							<a href="https://github.com/ClarissaMc/Alien-Invasion" target="_blank"><img src="images/github-3.png" alt="GitHub" class="link-btn"></a>
+							<hr>
+							<p>
+								Alien Invasion is a Space Invaders-like 2D shooter game. It has sound effects, a point system, and increasing levels of difficulty. I programmed it in <b>Python</b> using <b>Pygame</b> and tested it on <b>Ubuntu</b> for <b>VirtualBox</b>. The game is inspired by <i>Python Crash Course 2nd Edition</i> by Eric Matthes, which you can find <a href="https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=sr_1_4?crid=1LXZ5Y0OHI2QS&keywords=python+crash+course&qid=1686026423&sprefix=python%2520crash%2520course%2Caps%2C79&sr=8-4" target="_blank" class="crash-course">here</a>.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End 4th Project (Alien Invasion) -->
+			</div>
+			<!-- End Main Col -->
+			<div class="col-sm-2"></div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="d-flex flex-row flex-container color2">
+			<div>&copy; 2023 Clarissa McCarthy</div>
+			<div class="social-media">
+				<a href="https://linkedin.com/in/clarissa-mccarthy" target="_blank">
+					<img src="images/linkedin.png" alt="LinkedIn" style="width:40px;">
+				</a>
+				<a href="https://github.com/ClarissaMc" target="_blank">
+					<img src="images/github.png" alt="GitHub" style="width:40px;">
+				</a>
+			</div>
+		</footer>
+		<!-- End Footer -->
+	</div>
+
+	<!-- Bootstrap's JS (+ Popper) -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<!-- My JS -->
+	<script type="text/javascript" src="clarissa.js"></script>
+</body>
+</html>
